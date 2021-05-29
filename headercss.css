@@ -1,0 +1,124 @@
+
+
+.logo{
+    display: block;
+    padding-top: 10px;
+    padding-right: 150px;
+    
+      
+}
+
+
+
+table{
+    width: 100%;
+}
+
+.left-nav a{
+    float: left;
+    color:black;
+    text-align: center;
+    padding:  20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:550;
+  }
+
+
+/* ********* for add cart symbol ******** */
+.badge {
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+  
+  .label-warning[href],
+  .badge-warning[href] {
+    background-color: red;
+  }
+  #lblCartCount {
+      font-size: 14px;
+      background: red;
+      color: #fff;
+      font-weight: bold;
+      padding: 0 5px;
+      vertical-align: top;
+      margin-left: -10px; 
+  }
+
+
+/* *************************************** */
+
+/* Login button in navbar */
+.log-button {
+    border-radius: 4px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .log-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .log-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .log-button:hover span {
+    padding-right: 25px;
+  }
+  
+  .log-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* ************** */
+
+  .left-nav a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: red;
+    padding: 20px;
+    border-width: 0 0 2px;
+    border-style: solid;
+  }
+
+  .left-nav a.active{
+    color: red;
+    
+  }
+
+  /* header shadow */
+.header {
+        overflow: hidden;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+       width: 100%;
+       padding: 8px;
+       box-shadow: 3px 5px 4px rgb(0 0 0 / 40%); /*create shadow*/
+      }
+
+
+
+ 
+  
