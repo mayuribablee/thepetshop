@@ -17,9 +17,9 @@
                 <div class="left-nav">
                     <div class="container topBotomBordersOut">
                         <ul>
-                        <a class="active" href="#">HOME</a></li>
-                        <a class="home" href="#">ABOUT US</a></li>
-                        <a class="home" href="#">BUY PETS</a></li>
+                        <a class="active" href="#">HOME</a>
+                        <a class="home" href="#">ABOUT US</a>
+                        <a class="home" href="#">BUY PETS</a>
                         
                     </ul></div>
                     
